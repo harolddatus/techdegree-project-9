@@ -1,15 +1,15 @@
 //Get modal element
-const modal = document.querySelector('modal');
+const modal = document.querySelector('.modal');
 //Get Modal element
-const btn = document.getElementsByClassName('contact-btn-modal');
+const btn = document.querySelector('.btn-contact-info');
 //Get close button
-const close = document.getElementsByClassName('modal-close');
+const modalClose = document.querySelector('.modal-close');
 
 //listen for click
 btn.addEventListener('click', openModal);
 
 //listen for close click
-close.addEventListener('click', closeModal);
+modalClose.addEventListener('click', closeModal);
 
 function openModal(){
 modal.style.display ='block';
