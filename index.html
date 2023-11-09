@@ -129,7 +129,6 @@
       </div>
     </div>
 
-
     <div class="container text-center pt-5">
       <h3 class="display-5">Front End Technology</h3>
       <div class="row row-cols-md-2 row-cols-sm-2 row-cols-lg-3 g-5 pt-5">
@@ -157,11 +156,49 @@
       </div>
       <!-- <a class="display-3 text-center contact-btn" href="#contact">Contact Me</a> -->
       <!-- Button trigger modal -->
-      <button type="button" class=" contact-btn-modal" data-bs-toggle="modal" data-bs-target="#contactModal" id="contactMe">
+      <!-- <button type="button" class="contact-btn-modal" data-bs-toggle="modal" data-bs-target="#contactModal" id="contactMe">
       Contact Me
-      </button>
+      </button> -->
+
+      <button type="button" class="contact-btn-modal">
+        Contact Me
+        </button>
+
+      <!-- Custom Modal -->
+      <div class="container modal" id="modalBtn">
+    
+        <div class="modal-content container" id="modal-content">
+          <button class="modal-close">&times;</button>
+          <h3>Contact Me</h3>
+          <form class="formField">
+            <div class="mb-3">
+              <label for="firstName">First name</label>
+              <input type="text" class="form-control firstName" id="firstName" placeholder="" required>
+            </div>
+            <div class="mb-3">
+              <label for="lastName">Last name</label>
+              <input type="text" class="form-control lastName text-start" id="lastName" placeholder="" required>
+            </div>
+            <label for="email" class="col-sm-2 col-form-label">Email</label>
+            <div class="mb-3">
+              <input type="email" class="form-control email" id="email" placeholder="">
+            </div>      
+            <div class="mb-3">
+              <label for="textarea">Message</label>
+              <textarea class="form-control textarea" id="textarea" placeholder="" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>  
+    
+      </div>
+    
+
+
+
+
       <!-- Modal -->
-      <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+      <!-- <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -188,15 +225,15 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
               </form>
-            </div>
+            </div> -->
             <!-- <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
               <button type="button" class="btn btn-primary">Save changes</button>
             </div> -->
-          </div>
+          <!-- </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="container">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
@@ -212,7 +249,7 @@
         </ul>
       </footer>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/portfolio.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
   </body>
 </html>
