@@ -1,7 +1,7 @@
 //Get modal element
 const modal = document.querySelector('.modal');
 //Get Modal element
-const btn = document.querySelector('.btn-contact-info');
+const btn = document.querySelector('.contact-btn-modal');
 //Get close button
 const modalClose = document.querySelector('.modal-close');
 
