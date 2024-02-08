@@ -19,8 +19,12 @@
   padding: .5rem 2rem;
   border-radius: 10px;
 }
-.hero-container {
+.hero-section {
   background-color: rgba(217, 84, 79, 0.103);
+  padding: 3rem 0;
+}
+
+.hero-container {
   margin-bottom: 2rem;
 }
 
@@ -52,6 +56,9 @@ width: 80%;
 margin-left: 3rem;
 }
 
+.project-section {
+  padding: 3rem 0 ;
+}
 .btn-projects,
 .btn-contact-info{
   padding: 10px 25px;
