@@ -183,3 +183,8 @@ margin-left: 3rem;
   border-radius: 50%;
 }
 
+@media(max-width: 580px){
+  .hero-section, .project-section {
+    padding: .5rem 1.3rem;
+  }
+}
